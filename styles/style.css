@@ -5,8 +5,11 @@ body{
     font: 400 18px/28px 'Inter', sans-serif;
     width: 1920px;
 }
-.header__container{
+.container{
     width: 1440px;
+
+}
+.header__container{
     line-height: 46px;
     margin: 0 auto;
     align-items: center;
@@ -80,22 +83,21 @@ body{
     padding-top: 12px;
     padding-bottom: 12px;
 }
-
+ 
+.footer{
+    background-color: #19191C;
+}
 .footer__container{
-    width: 1920px;
     height: 536px;
     align-items: center;
     display: block;
     margin: 0 auto;
-    background-color: #19191C;
 }
 .footer__content{
     height: 346px;
     display: flex;
     gap: 146px;
     margin: 0 auto;
-    padding-left: 240px;
-    padding-right: 240px;
 }
 .footer__logo{
     display: flex;
