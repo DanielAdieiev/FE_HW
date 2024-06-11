@@ -7,7 +7,7 @@ body{
 }
 .container{
     width: 1440px;
-
+    align-items: center;
 }
 .header__container{
     line-height: 46px;
